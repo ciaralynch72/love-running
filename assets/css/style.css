@@ -117,7 +117,6 @@ animation-fill-mode: forwards;
      padding-top: 30px;
      width: 33%;
      float: left;
-     background-color: blue;
  }
 
  #right-about {
@@ -130,6 +129,19 @@ animation-fill-mode: forwards;
 #center-about {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
-    
+    background-color: green; 
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.left-about-class {
+    width: 60%;
+    float: right;
+    line-height:20px;
+    clear: both;
+    margin-bottom: 50px;
 }
